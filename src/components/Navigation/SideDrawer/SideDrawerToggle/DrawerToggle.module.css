@@ -1,0 +1,15 @@
+.ToggleButton {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  font-size: 4rem;
+  cursor: pointer;
+  z-index: 0;
+  color: var(--secondaryColor);
+  transition: transform 0.2s;
+
+}
+
+.ToggleButton:hover {
+  transform: scale(1.2);
+}

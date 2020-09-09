@@ -1,0 +1,28 @@
+.PlayerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--darkSecondary);
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s;  
+    margin: 20px 30px 20px 30px;  
+    
+}
+
+.PlayerButton:hover {
+    transform: scale(1.1);
+    background-color: var(--lightSecondary);
+}
+
+@media screen and (max-width: 992px) {
+    .PlayerButton {
+        font-size: 1.4rem;
+        width: 120px;
+    }
+}

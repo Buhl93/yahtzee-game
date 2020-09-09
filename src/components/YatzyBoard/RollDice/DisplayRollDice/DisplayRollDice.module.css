@@ -1,0 +1,15 @@
+.DiceLayout {
+  display: flex;
+  margin: 20px;
+  margin-top: 200px;
+  height: 150px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .DiceLayout {
+    margin: 100px 20px 60px 20px;
+    height: 150px;
+  }
+}

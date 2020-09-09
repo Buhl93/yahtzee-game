@@ -1,0 +1,39 @@
+.Row {
+  display: flex;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+}
+
+.Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-right: 1px solid var(--mainWhite);
+  border-bottom: 1px solid var(--mainWhite);
+  color: var(--mainWhite);
+  margin: 0;
+  text-align: center;
+  height: 32px;
+  width: 67px;
+  font-size: 1.2rem;
+}
+
+.Top {
+  border-top: 1px solid var(--mainWhite);
+}
+
+.Left {
+  border-left: 1px solid var(--mainWhite);
+}
+
+
+.Row :nth-child(1) {
+  width: 130px;
+}
+.Row :nth-child(2) {
+  width: 40px;
+}

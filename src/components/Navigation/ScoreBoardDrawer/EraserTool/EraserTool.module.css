@@ -1,0 +1,21 @@
+.Button {
+  border: none;
+  border-radius: 40px;
+  height: 70px;
+  width: 70px;
+  background: var(--darkSecondary);
+  color: var(--mainWhite);
+  cursor: pointer;
+}
+
+.Selected {
+  background: var(--lightSecondary);
+}
+
+.Button i {
+  font-size: 2rem;
+}
+
+.Button:hover {
+  background: var(--lightSecondary);
+}

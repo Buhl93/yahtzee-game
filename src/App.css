@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.5rem;
+
+}
+
+Button {
+  font-family: 'Gaegu', cursive;
+}
+
+input {
+  font-family: 'Gaegu', cursive;
+
+}
+
+:root {
+  --mainColor: #489997;
+  --lightMain: #59B1AF;
+  --secondaryColor: #9C446D;
+  --lightSecondary: #bc658d;
+  --darkSecondary: #803859;
+  --mainWhite: #fefae0;
+  --mainDark: #00334e;
+}

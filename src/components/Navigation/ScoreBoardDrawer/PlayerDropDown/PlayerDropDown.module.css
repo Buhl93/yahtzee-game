@@ -1,0 +1,42 @@
+.Button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--darkSecondary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;  
+    margin: 20px 30px 20px 30px;
+    padding: 20px;  
+    
+}
+
+.ButtonLook {
+    display: flex;
+    justify-content: left;
+}
+.Players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Button i {
+    font-size: 2rem;
+}
+
+.PlayerButton:hover {
+    background-color: var(--lightSecondary);
+}
+
+@media screen and (max-width: 992px) {
+    .PlayerButton {
+        font-size: 1.4rem;
+        width: 120px;
+    }
+}

@@ -1,0 +1,23 @@
+.RollButton {
+  width: 150px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: var(--lightMain);
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.RollButton:hover {
+  background-color: var(--mainColor);
+  transform: scale(1.1);
+}
+
+.RollButton:disabled {
+  background-color: grey;
+  cursor: auto;
+}

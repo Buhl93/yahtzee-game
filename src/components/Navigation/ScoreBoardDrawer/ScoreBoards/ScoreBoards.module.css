@@ -1,0 +1,12 @@
+.Row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: default;
+}
+
+@media screen and (max-width: 992px) {
+    .Row {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,19 @@
+.DoneButton {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 60px;
+    background-color: var(--lightSecondary);
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.DoneButton:hover {
+    background-color: var(--secondaryColor);
+    transform: scale(1.1);
+}

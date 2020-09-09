@@ -1,0 +1,128 @@
+.Die {
+  margin: 10px;
+  padding: 4px;
+  background-color: var(--mainColor);
+  width: 104px;
+  height: 104px;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.Die:hover {
+  transform: scale(1.1);
+}
+
+.DieDisable {
+  margin: 10px;
+  padding: 4px;
+  background-color: grey;
+  width: 104px;
+  height: 104px;
+  border-radius: 10%;
+  cursor: auto;
+  animation: fadeIn 0.1s linear;
+}
+
+.Dot {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.Column {
+  flex-direction: column;
+}
+
+.Firstface {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Secondface {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Secondface .Dot:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+.Thirdface {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Thirdface .Dot:nth-of-type(2) {
+  align-self: center;
+}
+
+.Thirdface .Dot:nth-of-type(3) {
+  align-self: flex-end;
+}
+
+.Fourthface {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Fourthface .Column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Fifthface {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Fifthface .Column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Fifthface .Column:nth-of-type(2) {
+  justify-content: center;
+}
+
+.Sixthface {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Sixthface .Column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .Die {
+    margin: 10px;
+    padding: 4px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+  }
+  .DieDisable {
+    margin: 10px;
+    padding: 4px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+  }
+  .Dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+  }
+}
+
+
+
+
