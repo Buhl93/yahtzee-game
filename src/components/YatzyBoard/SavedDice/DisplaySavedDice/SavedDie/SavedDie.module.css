@@ -90,8 +90,6 @@
   justify-content: space-between;
 }
 
-
-
 @media (max-width: 600px) {
   .Die {
     margin: 10px;
@@ -102,12 +100,8 @@
   }
 
   .Dot {
-    width: 18px;
-    height: 18px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
   }
 }
-
-
-
-

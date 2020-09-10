@@ -19,3 +19,13 @@
 .Button:hover {
   background: var(--lightSecondary);
 }
+
+@media (max-width: 600px) {
+  .Button {
+    height: 55px;
+    width: 55px;
+  }
+  .Button i {
+    font-size: 1.5rem;
+  }
+}
