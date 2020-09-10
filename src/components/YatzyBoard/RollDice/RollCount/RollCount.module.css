@@ -2,11 +2,10 @@
     font-size: 1.4em;
     font-weight: bold;
     color: var(--mainColor);
-    margin: 20px;
 }
 
 @media (max-width: 600px) {
     .RollCount {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 }

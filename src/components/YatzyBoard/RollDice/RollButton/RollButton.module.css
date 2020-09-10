@@ -10,6 +10,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s;
+  margin: 20px;
 }
 
 .RollButton:hover {
