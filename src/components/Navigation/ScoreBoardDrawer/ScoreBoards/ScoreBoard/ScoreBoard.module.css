@@ -37,3 +37,15 @@
 .Row :nth-child(2) {
   width: 40px;
 }
+
+@media (max-width: 600px) {
+  .Box {
+    height: 30px;
+  }
+  .Row :nth-child(1) {
+    width: 120px;
+  }
+  .Row :nth-child(2) {
+    width: 30px;
+  }
+}
