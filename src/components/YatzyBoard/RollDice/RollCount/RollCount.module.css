@@ -4,3 +4,9 @@
     color: var(--mainColor);
     margin: 20px;
 }
+
+@media (max-width: 600px) {
+    .RollCount {
+        font-size: 1.1em;
+    }
+}
