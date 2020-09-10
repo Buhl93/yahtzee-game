@@ -24,8 +24,8 @@
 
 @media (max-width: 600px) {
   .RollButton {
-    width: 130px;
-    height: 50px;
+    width: 120px;
+    height: 45px;
     font-size: 1.1em;
   }
 }

@@ -13,3 +13,9 @@
 .ToggleButton:hover {
   transform: scale(1.2);
 }
+
+@media (max-width: 600px) {
+  .ToggleButton {
+    font-size: 3rem;
+  }
+}
