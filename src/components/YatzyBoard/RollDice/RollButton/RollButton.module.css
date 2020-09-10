@@ -21,3 +21,11 @@
   background-color: grey;
   cursor: auto;
 }
+
+@media (max-width: 600px) {
+  .RollButton {
+    width: 130px;
+    height: 50px;
+    font-size: 1.1em;
+  }
+}
