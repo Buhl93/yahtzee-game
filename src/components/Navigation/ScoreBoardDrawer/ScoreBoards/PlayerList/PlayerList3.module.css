@@ -28,6 +28,13 @@ input[type="text"] {
   color: var(--mainWhite);
 }
 
+@media (max-width: 600px) {
+  .Box {
+    height: 30px;
+    width: 60px;
+  }
+}
+
 /* Hide arrows on number input */
 /* Edge, Chrome, Safari */
 input::-webkit-outer-spin-button,

@@ -24,6 +24,13 @@ input {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .Box {
+    height: 30px;
+    width: 60px;
+  }
+}
+
 input[type="text"] {
   color: var(--mainWhite);
 }

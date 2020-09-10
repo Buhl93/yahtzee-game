@@ -127,19 +127,19 @@ const scoreBoard = (props) => {
         <div className={classes.Box}>{twoPair}</div>
       </div>
       <div className={classes.Row}>
-        <div className={`${classes.Box} ${classes.Left}`}>Three of a kind</div>
+        <div className={`${classes.Box} ${classes.Left}`}>3 of a kind</div>
         <div className={classes.Box}>{threeALike}</div>
       </div>
       <div className={classes.Row}>
-        <div className={`${classes.Box} ${classes.Left}`}>Four of a kind</div>
+        <div className={`${classes.Box} ${classes.Left}`}>4 of a kind</div>
         <div className={classes.Box}>{fourALike}</div>
       </div>
       <div className={classes.Row}>
-        <div className={`${classes.Box} ${classes.Left}`}>Small straight</div>
+        <div className={`${classes.Box} ${classes.Left}`}>S Straight</div>
         <div className={classes.Box}>{smallStraight}</div>
       </div>
       <div className={classes.Row}>
-        <div className={`${classes.Box} ${classes.Left}`}>Big Straight</div>
+        <div className={`${classes.Box} ${classes.Left}`}>B Straight</div>
         <div className={classes.Box}>{bigStraight}</div>
       </div>
       <div className={classes.Row}>

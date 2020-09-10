@@ -43,6 +43,13 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+@media (max-width: 600px) {
+  .Box {
+    height: 30px;
+    width: 60px;
+  }
+}
+
 ::placeholder {
   color: var(--mainWhite);
 }

@@ -36,6 +36,13 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+@media (max-width: 600px) {
+  .Box {
+    height: 30px;
+    width: 60px;
+  }
+}
+
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
