@@ -72,3 +72,20 @@ input:checked + .slider:before {
   color: var(--mainWhite);
   margin: 0px 20px 0px 60px;
 }
+
+@media (max-width: 600px) {
+  .SwitchText {
+    font-size: 1.2rem;
+  }
+  .switch {
+    width: 60px;
+    height: 31px;
+  }
+  
+  
+  .slider:before {
+
+    height: 23px;
+    width: 23px;
+  }
+}
