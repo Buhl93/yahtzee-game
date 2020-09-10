@@ -210,15 +210,15 @@ class YatzyGame extends Component {
   };
 
   numOfPlayers2Handler = () => {
-    this.setState({ NumberOfPlayers: 2 });
+    this.setState({ NumberOfPlayers: 2, PlayerDropDownOpen: false });
   };
 
   numOfPlayers3Handler = () => {
-    this.setState({ NumberOfPlayers: 3 });
+    this.setState({ NumberOfPlayers: 3, PlayerDropDownOpen: false });
   };
 
   numOfPlayers4Handler = () => {
-    this.setState({ NumberOfPlayers: 4 });
+    this.setState({ NumberOfPlayers: 4, PlayerDropDownOpen: false });
   };
 
   crossToolHandler = () => {
