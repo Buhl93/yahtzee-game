@@ -101,19 +101,19 @@
   justify-content: space-between;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .Die {
     margin: 10px;
     padding: 4px;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 10%;
   }
   .DieDisable {
     margin: 10px;
     padding: 4px;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 10%;
   }
   .Dot {
