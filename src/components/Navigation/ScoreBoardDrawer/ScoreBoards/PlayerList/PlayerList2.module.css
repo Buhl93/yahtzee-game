@@ -39,7 +39,7 @@ input::-webkit-inner-spin-button {
 @media (max-width: 600px) {
   .Box {
     height: 30px;
-    width: 55px;
+    width: 50px;
   }
 }
 
