@@ -31,7 +31,7 @@ input[type="text"] {
 @media (max-width: 600px) {
   .Box {
     height: 30px;
-    width: 60px;
+    width: 55px;
   }
 }
 
