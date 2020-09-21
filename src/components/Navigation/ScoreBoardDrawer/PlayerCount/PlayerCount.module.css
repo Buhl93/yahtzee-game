@@ -6,12 +6,9 @@
   left: 0;
   top: 80px;
   animation: dropup 0.5s forwards;
-
 }
 
 .Show {
-  display: block;
-  display: initial;
   animation: dropdown 0.5s forwards;
 }
 
@@ -38,5 +35,3 @@
     pointer-events: none;
   }
 }
-
-

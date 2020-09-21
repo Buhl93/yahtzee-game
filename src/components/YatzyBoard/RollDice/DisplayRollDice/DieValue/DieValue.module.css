@@ -16,7 +16,7 @@
 .DieDisable {
   margin: 10px;
   padding: 4px;
-  background-color: grey;
+  background-color: var(--disabled);
   width: 104px;
   height: 104px;
   border-radius: 10%;
@@ -29,7 +29,7 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .Column {

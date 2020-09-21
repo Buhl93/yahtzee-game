@@ -24,4 +24,7 @@ input {
   --darkSecondary: #803859;
   --mainWhite: #fefae0;
   --mainDark: #00334e;
-}
+  --disabled: gray;
+  --backgroundColor: #fefae0;
+  --white: white;
+} 
