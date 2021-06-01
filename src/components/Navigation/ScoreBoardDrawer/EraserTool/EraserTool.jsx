@@ -10,10 +10,11 @@ export default function EraserTool(props) {
         eraserClasses = classes.Button
     }
   return (
-    <div>
+    <div className={classes.Eraser}>
       <button className={eraserClasses} onClick={props.eraserTool}>
         <i className="las la-eraser"></i>
       </button>
+      <p>Eraser</p>
     </div>
   );
 }

@@ -1,11 +1,10 @@
 .Button {
   border: none;
   border-radius: 40px;
-  height: 70px;
-  width: 70px;
+  height: 4rem;
+  width: 4rem;
   background: var(--darkSecondary);
   color: var(--mainWhite);
-  margin-right: 30px;
   cursor: pointer;
 }
 

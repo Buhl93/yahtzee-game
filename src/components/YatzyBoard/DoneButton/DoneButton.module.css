@@ -1,7 +1,6 @@
 .DoneButton {
   border: none;
   outline: none;
-  width: 150px;
   height: 60px;
   background-color: var(--secondaryColor);
   color: var(--white);
@@ -9,6 +8,7 @@
   font-weight: bold;
   border-radius: 15px;
   margin: 20px;
+  padding: 0 3rem;
   cursor: pointer;
   transition: transform 0.2s;
 }

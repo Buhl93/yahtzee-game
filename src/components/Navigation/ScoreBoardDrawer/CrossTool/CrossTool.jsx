@@ -10,10 +10,11 @@ export default function CrossTool(props) {
         crossClasses = classes.Button
     }
   return (
-    <div>
+    <div className={classes.CrossTool}>
       <button className={crossClasses} onClick={props.crossTool}>
         <i className="las la-minus-square"></i>
       </button>
+      <p>Cross tool</p>
     </div>
   );
 }

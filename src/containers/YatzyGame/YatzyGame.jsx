@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import RollDice from "../../components/YatzyBoard/RollDice/RollDice";
 import SavedDice from "../../components/YatzyBoard/SavedDice/SavedDice";
 import DoneButton from "../../components/YatzyBoard/DoneButton/DoneButton";
+import ScoreboardButton from "../../components/YatzyBoard/ScoreboardButton/ScoreboardButton";
 import classes from "./YatzyGame.module.css";
 import ScoreBoardDrawer from "../../components/Navigation/ScoreBoardDrawer/ScoreBoardDrawer";
 import ScoreBoardToggle from "../../components/Navigation/ScoreBoardDrawer/ScoreBoardToggle/ScoreBoardToggle";
@@ -1068,8 +1069,6 @@ class YatzyGame extends Component {
           return sum + el;
         });
       }
-      console.log(Sums);
-      console.log(DiceSum);
       this.setState({ PlayerOneTotalScoreSum: DiceSum });
     } else if (player === 2) {
       if (this.state.PlayerTwoOneSum && this.state.PlayerTwoOneSum !== "-") {
@@ -1383,36 +1382,6 @@ class YatzyGame extends Component {
     }
   };
 
-  /* componentDidUpdate(prevProps) {
-    let value = [...this.state.DiceValue];
-    let superYatzy = false;
-
-    if (this.props.superYatzy !== prevProps.superYatzy) {
-      if (this.props.superYatzy) {
-        value = [1, 2, 3, 4, 5, 6];
-        superYatzy = true;
-      } else {
-        value = [1, 2, 3, 4, 5];
-        superYatzy = false;
-      }
-      this.setState({
-        DiceValue: value,
-        SuperYatzy: superYatzy,
-        RollCount: 0,
-        SavedDice: [],
-      });
-    }
-    if (this.props.darkMode !== prevProps.darkMode) {
-      this.setState((prevState) => {
-        return { DarkMode: !prevState.DarkMode };
-      });
-    }
-    if (this.props.scoreBoardDrawerOpen !== prevProps.scoreBoardDrawerOpen) {
-      this.setState((prevState) => {
-        return { ScoreBoardDrawerOpen: !prevState.ScoreBoardDrawerOpen };
-      });
-    }
-  }*/
 
   render() {
     return (
@@ -1554,7 +1523,14 @@ class YatzyGame extends Component {
           removeDie={this.removeSavedDieHandler}
           returnDie={this.returnDieHandler}
         />
+        <div>
+        <ScoreboardButton 
+          toggleScoreBoardDrawer={this.toggleScoreBoardDrawerHandler}
+          open={this.state.ScoreBoardDrawerOpen} 
+        />
         <DoneButton resetBoard={this.resetBoardHandler} />
+        </div>
+        
       </div>
     );
   }
