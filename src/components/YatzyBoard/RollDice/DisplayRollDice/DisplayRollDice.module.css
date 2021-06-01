@@ -1,6 +1,6 @@
 .DiceLayout {
   display: flex;
-  margin: 20px;
+  margin: 0;
   height: 150px;
   justify-content: center;
   flex-wrap: wrap;
